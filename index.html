@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <!-- Title & Favicon -->
+    <title>Food Delivery</title>
+    <!-- CSS Link -->
+    <!-- Swiper -->   
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <!-- ====================================== Start Header Section Here ====================================== -->
+    <header id="header-section">
+    <!-- SideNAv -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content text-center">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a onclick="closeNav()" class="nav-link" href="#menu-section">Browse Food <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a onclick="closeNav()" class="nav-link" href="#download-section">Download App</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="closeNav()" class="nav-link" href="#about-section">About Us</a>
+          </li>
+        </ul>
+        <br><br>
+      </div>
+    </div>
+      <nav class="navbar navbar-expand-lg py-5">
+        <div class="container p-sm-0">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+          <form class="form-inline d-lg-none ml-auto my-2 my-lg-0">
+            <a href="javascript:void(0)" class="notification">
+              <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
+              <span class="badge">3</span>
+            </a>
+            <a href="javascript:void(0)"><i class="fa fa-user-o ml-4" aria-hidden="true"></i></a>
+          </form>
+          <button onclick="openNav()" class="navbar-toggler ml-4">
+            <span class="fa fa-bars fa-2x text-white"></span>
+          </button>   
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#menu-section">Browse Food <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#download-section">Download App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <a href="javascript:void(0)" class="notification">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span class="badge">3</span>
+              </a>
+              <a href="javascript:void(0)"><i class="fa fa-user-o ml-5" aria-hidden="true"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header-content">
+          <div class="row pb-5 mb-5">
+            <div class="col-md-8 col-lg-6 m-auto">
+              <p>Lorem ipsum dolor sit amet purus.</p>
+             <h1 class="text-center mt-4">Delicious food at <br> your door step.</h1>
+             <p class="mt-4 mb-5 pb-sm-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero alias nisi tenetur itaque ea eius porro non distinctio odit molestias!</p> 
+              <div class="search-box mt-5">
+               <div class="row">
+                <div class="col-10 col-lg-11"><input class="align-self-center img-fluid w-100" type="text" placeholder="Your Address"></div>
+                <div class="col-1 text-center"><a class="align-self-center img-fluid w-100" href="javascript:void(0)"><i class="fa fa-search"></i></a></div>
+               </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="header-social d-none d-sm-block">
+          <a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+       </div>
+      </div>
+    </header>
+    <!-- ====================================== End Header Section Here ====================================== -->
+
+    <!-- ====================================== Start Menu Section Here ====================================== -->
+    <section class="section" id="menu-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="heading-title">Basic info about online food.</div>
+            <h2 class="heading mt-4">delicious food is our aim.</h2>
+          </div>
+        </div>
+        <div class="row mt-5 pt-5">
+          <div class="col-sm-6 col-lg-4 mb-5">
+            <div class="card-border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">25</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item1.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">Mega Restaurant</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5">
+            <div class="card-border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">45</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item2.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">The Fast Food</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5">
+            <div class="card-border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">50</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item3.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">Green Bakery</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="card-border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">25</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item4.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">Eat Frio</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="card border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">50</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item5.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">Turkish Cousine</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="card-border-0 menu-box">
+              <div class="mins text-center">
+                <h3 style="color: #fff;" class="text-white">45</h3>
+                <div class="food-detaisl text-white">mins</div>
+              </div>
+              <div class="overflow-hidden"><img src="img/item6.png" alt="food" class="card-img-top"></div>
+              <div class="card-body py-4">
+                <h3 class="food-name d-inline mt-4">Pizzario</h3>
+                <div class="food-review d-inline float-right mt-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="food-details mb-2">Curabitur mollis bibendum luctus.. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5 pt-5">
+          <a class="button" href="javascript:void(0)">Browse More Food Options</a>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Menu Section Here ====================================== -->
+
+    <!-- ====================================== Start Testimonial Section Here ====================================== -->
+    <section id="testimonial-section" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6 m-auto">
+            <div class="swiper-container">
+              <div class="swiper-wrapper text-center">
+                <div class="swiper-slide">
+                  <img src="img/client1.jpg" alt="client">
+                  <h3 class="client-name">Farhana Prity</h3>
+                  <p class="client-text"><q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam reprehenderit esse, quod laborum earum, deserunt animi odit cum consectetur praesentium, unde id molestias in suscipit!</q></p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/client2.jpg" alt="client">
+                  <h3 class="client-name">Emtiaz Hosen</h3>
+                  <p class="client-text"><q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam reprehenderit esse, quod laborum earum, deserunt animi odit cum consectetur praesentium, unde id molestias in suscipit!</q></p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/client3.jpg" alt="client">
+                  <h3 class="client-name">Sifat Kazi</h3>
+                  <p class="client-text"><q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam reprehenderit esse, quod laborum earum, deserunt animi odit cum consectetur praesentium, unde id molestias in suscipit!</q></p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/client4.jpg" alt="client">
+                  <h3 class="client-name">Luchi Vikes</h3>
+                  <p class="client-text"><q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam reprehenderit esse, quod laborum earum, deserunt animi odit cum consectetur praesentium, unde id molestias in suscipit!</q></p>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination1 text-center mt-5 pt-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Testimonial Section Here ====================================== -->
+
+    <!-- ====================================== Start Download App Section Here ====================================== -->
+    <section class="section" id="download-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6 text-center m-auto">
+            <div class="heading-title">Better experience on obile ordering.</div>
+            <h2 class="heading mt-4">download our latest app from mobile stores.</h2>
+          </div>
+        </div>
+        <div class="row text-center mt-5 pt-5">
+          <div class="col-4 col-sm-6 col-lg-4 mb-5 mb-lg-0 m-auto">
+            <div class="row">
+              <div class="col-sm-6 app-box">
+                <img src="img/app1.png" alt="app" class="img-fluid app">
+                <h3 class="app-name mt-5 text-white">Apple App Store</h3>
+              </div>
+              <div class="col-sm-6 app-box mt-5 mt-sm-0">
+                <img src="img/app2.png" alt="app" class="img-fluid app">
+                <h3 class="app-name mt-4 pt-2 text-white">Google Play Store</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Download App  Section Here ====================================== -->
+
+    <!-- ====================================== Start About Section Here ====================================== -->
+    <section class="section" id="about-section">
+      <div class="container">
+        <div class="row text-center text-sm-left">
+          <div class="col-lg-6 mb-5 mb-lg-0 text-center text-sm-left">
+            <div class="heading-title">Basic info about food delivery.</div>
+            <h2 class="heading mt-4">we are behind the delicious food delivery.</h2>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <p class="para-size">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. <br><br>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+          </div>
+        </div>
+        <div class="mt-5 pt-sm-5"></div>
+        <div class="row mt-5 pt-5 text-center">
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+            <i class="fa fa-lightbulb-o text-light" aria-hidden="true"></i>
+            <div class="para-size w-75 m-auto">We have new ideas for your food business.</div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+            <i class="fa fa-bicycle text-white" aria-hidden="true"></i>
+            <div class="para-size w-75 m-auto">Join our amazing delivery staff.</div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0 m-auto">
+            <i class="fa fa-heart-o text-light" aria-hidden="true"></i>
+            <div class="para-size w-75 m-auto">We love our valued food customers.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End About  Section Here ====================================== -->
+
+    <!-- ====================================== Start Footer  Section Here ====================================== -->
+    <footer class="section">
+      <div class="container">
+        <div class="text-center">
+          <div class="footer-social">
+            <a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="javascript:void(0)"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+         </div>
+         <p class="para-size mt-5">© 2020 MegaOne. Made With Love By Faysal</p>
+        </div>
+      </div>
+    </footer>
+    <!-- ====================================== End Footer  Section Here ====================================== -->
+
+    <!-- Back to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button> 
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>

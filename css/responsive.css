@@ -1,0 +1,28 @@
+@media screen and (max-width:991px){
+    .nav-link{
+        margin: 0;
+    }
+    .nav-link:hover::after{
+        width: 0;
+    }
+}
+@media screen and (max-width:575px){
+    .header-content h1{
+        font-size: 4rem;
+    }
+    .section{
+        padding: 5rem 0;
+    }
+    .button{
+        padding: 1rem 3rem;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .client-name{
+        font-size: 2.5rem;
+    }
+    .footer-social i{
+        margin: 0 1rem;
+    }
+}
